@@ -332,7 +332,7 @@ public final class Session
         requireNonNull(transactionId, "transactionId is null");
         checkArgument(this.transactionId.isEmpty(), "Session already has an active transaction");
         requireNonNull(transactionManager, "transactionManager is null");
-        requireNonNull(accessControl, "accessControl is null");
+        //requireNonNull(accessControl, "accessControl is null");
 
         validateSystemProperties(accessControl, this.systemProperties);
 
