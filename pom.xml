@@ -146,6 +146,8 @@
     </scm>
 
     <properties>
+        <sonar.organization>aixcc-finals</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <project.build.targetJdk>22</project.build.targetJdk>
         <!-- for reproducible build support, updated by release plugin -->
         <project.build.outputTimestamp>2024-09-18T01:24:05Z</project.build.outputTimestamp>
